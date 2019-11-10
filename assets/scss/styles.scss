@@ -1,0 +1,29 @@
+// Define variables
+$favorite-color: #f00;
+$max-width: 800px;
+$pad: 20px;
+
+// Define styles
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;   
+    font-size: 1.6rem; // 16px
+}
+.site-header,
+.site-content,
+.site-footer {
+    margin: 0 auto;
+    padding: $pad;
+    max-width: $max-width;
+}
+a {
+    color: $favorite-color;
+    font-weight: bold;
+}
+code {
+    font-family: 'Courier New', Courier, monospace;   
+    background: #eee;
+    padding: 2px 5px;
+}
